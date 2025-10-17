@@ -39,6 +39,7 @@ El sistema gestiona entidades como:
 
 ## ESTRUCTURA DEL PROYECTO
 
+``` 
 quiz-backend-springboot/
 │
 ├── src/
@@ -57,6 +58,7 @@ quiz-backend-springboot/
 ├── pom.xml
 └── README.md
 
+````
 
 ---
 
@@ -66,7 +68,4 @@ git clone https://github.com/javAnibal/quiz-backend-springboot.git
 # Ejecutar aplicación (desde IDE o terminal)
 // mvn spring-boot:run
 
-
-# quiz-backend-springboot
-Quiz - sistema de preguntas y respuestas + API REST backend que gestiona usuarios, preguntas, respuestas y resultados.
 
