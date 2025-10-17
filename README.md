@@ -44,7 +44,7 @@ quiz-backend-springboot/
 │
 ├── src/
 │ ├── main/
-│ │ ├── java/com/javAnibal/quiz/
+│ │ ├── java/com/javanibal/quiz/
 │ │ │ ├── controller/
 │ │ │ ├── service/
 │ │ │ ├── repository/
@@ -52,7 +52,7 @@ quiz-backend-springboot/
 │ │ └── resources/
 │ │ ├── application.yml
 │ │ └── data/
-│ └── test/java/com/javAnibal/quiz/
+│ └── test/java/com/javanibal/quiz/
 │
 ├── docs/architecture.md
 ├── pom.xml
