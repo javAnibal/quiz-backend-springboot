@@ -1,3 +1,4 @@
+
 # QUIZ -> BACKEND CON SPRING BOOT
 
 **Quiz Backend Spring Boot** es una API REST desarrollada en **Java** utilizando **Spring Boot**, **Hibernate/JPA**, **Lombok** y **PostgreSQL**.  
@@ -63,4 +64,9 @@ quiz-backend-springboot/
 git clone https://github.com/javAnibal/quiz-backend-springboot.git
 
 # Ejecutar aplicación (desde IDE o terminal)
-mvn spring-boot:run
+// mvn spring-boot:run
+
+
+# quiz-backend-springboot
+Quiz - sistema de preguntas y respuestas + API REST backend que gestiona usuarios, preguntas, respuestas y resultados.
+
