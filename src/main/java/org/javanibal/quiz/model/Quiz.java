@@ -4,6 +4,9 @@ import org.javanibal.quiz.enums.Categoria;
 
 import java.util.List;
 
+
+
+
 public class Quiz {
 
     private Integer id;
