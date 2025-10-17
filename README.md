@@ -64,7 +64,6 @@ quiz-backend-springboot/
 ### Clonar el repositorio
 git clone https://github.com/javAnibal/quiz-backend-springboot.git
 
-### Ejecutar aplicación
-mvn spring-boot:run
+
 
 
