@@ -1,5 +1,6 @@
 package org.javanibal.quiz.model;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.javanibal.quiz.enums.Categoria;
@@ -10,12 +11,10 @@ import java.util.List;
 
 
 @Entity
-@Table(name="cuestionarios")
+@Table(name="quiz")
 
 //Lombok
 @Getter
-@Setter
-@Data // -> construye ToString - [entre otros]
 @NoArgsConstructor
 @AllArgsConstructor
 
@@ -29,6 +28,7 @@ public class Quiz {
     private Categoria categoria;
 
     @OneToMany(mappedBy = "quiz", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Pregunta> preguntaList = new ArrayList<>();
 
 
