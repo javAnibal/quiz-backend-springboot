@@ -1,17 +1,16 @@
 package org.javanibal.quiz.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.*;
 import org.javanibal.quiz.enums.Opcion;
 
 
 @Entity
-@Table(name = "respuestas")
+@Table(name = "respuesta")
 
 //Lombok
 @Getter
-@Setter
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
 
@@ -26,7 +25,8 @@ public class Respuesta {
     private boolean esCorrecta;
 
     @ManyToOne
-    @JoinColumn(name = "preguntas_id")
+    @JoinColumn(name = "pregunta_id", nullable = false)
+    @JsonBackReference
     private Pregunta pregunta;
 
 }

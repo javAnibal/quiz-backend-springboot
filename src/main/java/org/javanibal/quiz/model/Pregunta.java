@@ -2,6 +2,8 @@ package org.javanibal.quiz.model;
 
 
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -10,12 +12,10 @@ import java.util.List;
 
 
 @Entity
-@Table(name = "preguntas")
+@Table(name = "pregunta")
 
 //Lombok
 @Getter
-@Setter
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
 
@@ -29,9 +29,11 @@ public class Pregunta {
     private String enunciado;
 
     @ManyToOne
-    @JoinColumn(name = "quiz_id")
+    @JoinColumn(name = "quiz_id", nullable = false)
+    @JsonBackReference
     private Quiz quiz;
     @OneToMany(mappedBy = "pregunta", cascade = CascadeType.ALL, orphanRemoval = true)
+    @JsonManagedReference
     private List<Respuesta> respuestaList = new ArrayList<>();
 
 
