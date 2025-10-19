@@ -5,9 +5,8 @@
 API REST desarrollada en Spring Boot para la gestión de quizzes educativos.
 Este sistema permite crear, administrar y realizar trivias con preguntas de opción múltiple.
 Ideal para plataformas de aprendizaje, evaluaciones educativas.
----
 
-#### Características Principales
+** Características Principales **
 
 - **Gestión de Quizzes:** Crear, leer, actualizar y eliminar quizzes
 - **Preguntas Múltiples:** Cada quiz contiene múltiples preguntas
