@@ -14,9 +14,10 @@ import java.util.List;
 @Table(name="quiz")
 
 //Lombok
-@Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 
 public class Quiz {
 

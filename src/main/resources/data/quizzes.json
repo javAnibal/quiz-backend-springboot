@@ -1,0 +1,47 @@
+[
+  {
+    "titulo": "Java básico",
+    "categoria": "FUNDAMENTOS",
+    "preguntaList": [
+      {
+        "enunciado": "¿Qué es una clase en Java?",
+        "respuestaList": [
+          { "texto": "Una estructura de control", "opcion": "A", "esCorrecta": false },
+          { "texto": "Una plantilla para objetos", "opcion": "B", "esCorrecta": true },
+          { "texto": "Una variable global", "opcion": "C", "esCorrecta": false },
+          { "texto": "Un tipo de bucle", "opcion": "D", "esCorrecta": false }
+        ]
+      }
+    ]
+  },
+  {
+    "titulo": "POO en Java",
+    "categoria": "OBJETOS",
+    "preguntaList": [
+      {
+        "enunciado": "¿Qué representa un objeto en Java?",
+        "respuestaList": [
+          { "texto": "Una función matemática", "opcion": "A", "esCorrecta": false },
+          { "texto": "Una instancia de una clase", "opcion": "B", "esCorrecta": true },
+          { "texto": "Una variable primitiva", "opcion": "C", "esCorrecta": false },
+          { "texto": "Un archivo ejecutable", "opcion": "D", "esCorrecta": false }
+        ]
+      }
+    ]
+  },
+  {
+    "titulo": "Herencia en Java",
+    "categoria": "HERENCIA",
+    "preguntaList": [
+      {
+        "enunciado": "¿Qué permite la herencia en Java?",
+        "respuestaList": [
+          { "texto": "Evitar el uso de clases", "opcion": "A", "esCorrecta": false },
+          { "texto": "Crear múltiples constructores", "opcion": "B", "esCorrecta": false },
+          { "texto": "Reutilizar código de una clase base", "opcion": "C", "esCorrecta": true },
+          { "texto": "Eliminar métodos automáticamente", "opcion": "D", "esCorrecta": false }
+        ]
+      }
+    ]
+  }
+]

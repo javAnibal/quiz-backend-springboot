@@ -15,9 +15,10 @@ import java.util.List;
 @Table(name = "pregunta")
 
 //Lombok
-@Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 
 
 public class Pregunta {

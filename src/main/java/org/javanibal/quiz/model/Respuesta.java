@@ -10,9 +10,10 @@ import org.javanibal.quiz.enums.Opcion;
 @Table(name = "respuesta")
 
 //Lombok
-@Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 
 public class Respuesta {
     @Id
