@@ -1,6 +1,7 @@
 # Quiz
-#### Descripción del Proyecto
+---
 
+#### Descripción del Proyecto
 API REST desarrollada en Spring Boot para la gestión de quizzes educativos.
 Este sistema permite crear, administrar y realizar trivias con preguntas de opción múltiple.
 Ideal para plataformas de aprendizaje, evaluaciones educativas.
