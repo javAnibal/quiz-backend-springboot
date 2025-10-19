@@ -2,10 +2,12 @@ package org.javanibal.quiz.service;
 
 import org.javanibal.quiz.model.Respuesta;
 import org.javanibal.quiz.repository.RespuestaRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class RespuestaService {
 
     private final RespuestaRepository respuestaRepository;
