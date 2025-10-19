@@ -1,12 +1,12 @@
-# Quiz Backend
-## Descripción del Proyecto
+# Quiz
+#### Descripción del Proyecto
 
-Quiz Backend es una API REST desarrollada en Spring Boot para la gestión de quizzes educativos.
-Este sistema permite crear, administrar y realizar trivias con preguntas de opción múltiple,
-ideal para plataformas de aprendizaje, evaluaciones educativas o aplicaciones de trivia.
+API REST desarrollada en Spring Boot para la gestión de quizzes educativos.
+Este sistema permite crear, administrar y realizar trivias con preguntas de opción múltiple.
+Ideal para plataformas de aprendizaje, evaluaciones educativas.
 ---
 
-## Características Principales
+#### Características Principales
 
 - **Gestión de Quizzes:** Crear, leer, actualizar y eliminar quizzes
 - **Preguntas Múltiples:** Cada quiz contiene múltiples preguntas
@@ -16,7 +16,7 @@ ideal para plataformas de aprendizaje, evaluaciones educativas o aplicaciones de
 - **Dockerizado:** Fácil despliegue con Docker Compose
 - **API REST:** Endpoints completos para integración frontend
 
-## Arquitectura del Proyecto -> MVC
+#### Arquitectura del Proyecto -> MVC
 
 ``` 
 
@@ -33,7 +33,7 @@ quiz-backend-springboot/
 
 --- 
 
-## Categorías Disponibles
+#### Categorías Disponibles
 
 - **FUNDAMENTOS** - Conceptos básicos
 - **OBJETOS** - Programación orientada a objetos
@@ -42,7 +42,7 @@ quiz-backend-springboot/
 
 ---
 
-## Tecnologías Utilizadas
+#### Tecnologías Utilizadas
 
 - Java 24
 - Spring Boot 3.x
@@ -54,7 +54,7 @@ quiz-backend-springboot/
 
 ---
 
-## Prerrequisitos
+#### Prerrequisitos
 
 - Java 24 o superior
 - PostgreSQL 15
@@ -63,13 +63,13 @@ quiz-backend-springboot/
 
 --- 
 
-## Configuración e Instalación
+#### Configuración e Instalación
 
 ```
  La aplicación estará disponible en: http://localhost:8080
  ```
 
-### Método con Docker (Recomendado)
+#### Método con Docker (Recomendado)
 
 ``` 
 git clone https://github.com/tu-usuario/quiz-backend-springboot.git
@@ -133,7 +133,7 @@ PUT /api/respuestas/{id} - Actualizar respuesta
 DELETE /api/respuestas/{id} - Eliminar respuesta
 
 ---
-Autor
+### Autor
 Anibal Solano
 
 - GitHub: [@javAnibal](https://github.com/javAnibal)
