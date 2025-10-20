@@ -6,7 +6,7 @@ API REST desarrollada en Spring Boot para la gestión de quizzes educativos.
 Este sistema permite crear, administrar y realizar trivias con preguntas de opción múltiple.
 Ideal para plataformas de aprendizaje, evaluaciones educativas.
 
-Características Principales
+### Características Principales
 
 - **Gestión de Quizzes:** Crear, leer, actualizar y eliminar quizzes
 - **Preguntas Múltiples:** Cada quiz contiene múltiples preguntas
@@ -16,10 +16,9 @@ Características Principales
 - **Dockerizado:** Fácil despliegue con Docker Compose
 - **API REST:** Endpoints completos para integración frontend
 
-#### Arquitectura del Proyecto -> MVC
+### Arquitectura del Proyecto -> MVC
 
 ``` 
-
 quiz-backend-springboot/
 ├── 📁 config/ # Configuraciones y carga de datos inicial
 ├── 📁 controller/ # Controladores REST
@@ -29,11 +28,9 @@ quiz-backend-springboot/
 ├── 📁 enums/ # Enumeraciones
 └── 📄 application.properties
 
-```
+``` 
 
---- 
-
-#### Categorías Disponibles
+### Categorías Disponibles
 
 - **FUNDAMENTOS** - Conceptos básicos
 - **OBJETOS** - Programación orientada a objetos
@@ -42,7 +39,7 @@ quiz-backend-springboot/
 
 ---
 
-#### Tecnologías Utilizadas
+### Tecnologías Utilizadas
 
 - Java 24
 - Spring Boot 3.x
@@ -54,7 +51,7 @@ quiz-backend-springboot/
 
 ---
 
-#### Prerrequisitos
+### Prerrequisitos
 
 - Java 24 o superior
 - PostgreSQL 15
@@ -63,13 +60,13 @@ quiz-backend-springboot/
 
 --- 
 
-#### Configuración e Instalación
+### Configuración e Instalación
 
 ```
  La aplicación estará disponible en: http://localhost:8080
  ```
 
-#### Método con Docker (Recomendado)
+### Método con Docker (Recomendado)
 
 ``` 
 git clone https://github.com/tu-usuario/quiz-backend-springboot.git
@@ -93,43 +90,30 @@ java -jar target/quiz-0.0.1-SNAPSHOT.jar
  ```
 
 --- 
-#### Quizzes
+### Quizzes
 
 GET /api/quizzes - Obtener todos los quizzes
-
 GET /api/quizzes/{id} - Obtener quiz por ID
-
 POST /api/quizzes - Crear nuevo quiz
-
 PUT /api/quizzes/{id} - Actualizar quiz
-
 DELETE /api/quizzes/{id} - Eliminar quiz
 
 --- 
-
 #### Preguntas
 
 GET /api/preguntas - Obtener todas las preguntas
-
 GET /api/preguntas/{id} - Obtener pregunta por ID
-
 POST /api/preguntas - Crear nueva pregunta
-
 PUT /api/preguntas/{id} - Actualizar pregunta
-
 DELETE /api/preguntas/{id} - Eliminar pregunta
 
 ---
-#### Respuestas
+### Respuestas
 
 GET /api/respuestas - Obtener todas las respuestas
-
 GET /api/respuestas/{id} - Obtener respuesta por ID
-
 POST /api/respuestas - Crear nueva respuesta
-
 PUT /api/respuestas/{id} - Actualizar respuesta
-
 DELETE /api/respuestas/{id} - Eliminar respuesta
 
 ---
