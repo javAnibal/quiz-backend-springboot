@@ -89,7 +89,6 @@ java -jar target/quiz-0.0.1-SNAPSHOT.jar
 
  ```
 
---- 
 ### Quizzes
 
 GET /api/quizzes - Obtener todos los quizzes
